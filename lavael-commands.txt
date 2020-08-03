@@ -15,3 +15,5 @@ docker-compose run --rm composer composer create-project laravel/laravel . 5.5
 docker-compose run --rm composer update
 
 https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0
+
+https://stackoverflow.com/questions/44395822/error-class-html-not-found-laravel-5-4
