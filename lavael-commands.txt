@@ -11,6 +11,7 @@ docker exec -e SERVER_BASE_URL=http://$CONTAINER_IP_API:8080 $CONTAINER_NAME_TES
 composer create-project laravel/laravel . 5.5
 
 
-docker-compose run --rm composer composer create-project laravel/laravel . 5.2
+docker-compose run --rm composer composer create-project laravel/laravel . 5.5
+docker-compose run --rm composer update
 
 https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0
