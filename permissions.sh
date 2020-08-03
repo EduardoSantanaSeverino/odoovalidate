@@ -1,0 +1,1 @@
+chmod 776 -R src/storage/
